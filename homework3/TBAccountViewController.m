@@ -11,6 +11,8 @@
 
 @interface TBAccountViewController ()
 
+@property (nonatomic, strong) TBLoginViewController *loginViewController;
+
 - (IBAction)onLogInButton:(id)sender;
 
 @end
@@ -22,6 +24,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.loginViewController = [[TBLoginViewController alloc] init];
     }
     return self;
 }
@@ -42,12 +45,8 @@
     TBLoginViewController *vc = [[TBLoginViewController alloc] init];
     vc.modalTransitionStyle = UIModalTransitionStyleCoverVertical; // Rises from below
     
-    // vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve; // Fade
-    // vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal; // Flip
-    // vc.modalTransitionStyle = UIModalTransitionStylePartialCurl; // Curl
-    
     [self presentViewController:vc animated:YES completion:nil];
-    
-    
+     
 }
+
 @end

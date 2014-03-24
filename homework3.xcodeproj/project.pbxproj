@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		11AEF25018DFBEF100CF04A8 /* TBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AEF24E18DFBEF100CF04A8 /* TBLoginViewController.m */; };
 		11AEF25118DFBEF100CF04A8 /* TBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11AEF24F18DFBEF100CF04A8 /* TBLoginViewController.xib */; };
+		11AEF25518DFF74200CF04A8 /* TBComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AEF25318DFF74200CF04A8 /* TBComposeViewController.m */; };
+		11AEF25618DFF74200CF04A8 /* TBComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11AEF25418DFF74200CF04A8 /* TBComposeViewController.xib */; };
 		11B6B84518DE54BC004EC166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B6B84418DE54BC004EC166 /* Foundation.framework */; };
 		11B6B84718DE54BC004EC166 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B6B84618DE54BC004EC166 /* CoreGraphics.framework */; };
 		11B6B84918DE54BC004EC166 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B6B84818DE54BC004EC166 /* UIKit.framework */; };
@@ -47,6 +49,9 @@
 		11AEF24D18DFBEF100CF04A8 /* TBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBLoginViewController.h; sourceTree = "<group>"; };
 		11AEF24E18DFBEF100CF04A8 /* TBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBLoginViewController.m; sourceTree = "<group>"; };
 		11AEF24F18DFBEF100CF04A8 /* TBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBLoginViewController.xib; sourceTree = "<group>"; };
+		11AEF25218DFF74200CF04A8 /* TBComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBComposeViewController.h; sourceTree = "<group>"; };
+		11AEF25318DFF74200CF04A8 /* TBComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBComposeViewController.m; sourceTree = "<group>"; };
+		11AEF25418DFF74200CF04A8 /* TBComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBComposeViewController.xib; sourceTree = "<group>"; };
 		11B6B84118DE54BC004EC166 /* homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B6B84418DE54BC004EC166 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11B6B84618DE54BC004EC166 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -159,6 +164,9 @@
 				11AEF24D18DFBEF100CF04A8 /* TBLoginViewController.h */,
 				11AEF24E18DFBEF100CF04A8 /* TBLoginViewController.m */,
 				11AEF24F18DFBEF100CF04A8 /* TBLoginViewController.xib */,
+				11AEF25218DFF74200CF04A8 /* TBComposeViewController.h */,
+				11AEF25318DFF74200CF04A8 /* TBComposeViewController.m */,
+				11AEF25418DFF74200CF04A8 /* TBComposeViewController.xib */,
 			);
 			path = homework3;
 			sourceTree = "<group>";
@@ -268,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11AEF25118DFBEF100CF04A8 /* TBLoginViewController.xib in Resources */,
+				11AEF25618DFF74200CF04A8 /* TBComposeViewController.xib in Resources */,
 				11B6B88618DE5C26004EC166 /* TBSearchViewController.xib in Resources */,
 				11B6B87C18DE568D004EC166 /* TBTabBarViewController.xib in Resources */,
 				11B6B88B18DE5C74004EC166 /* TBAccountViewController.xib in Resources */,
@@ -293,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AEF25518DFF74200CF04A8 /* TBComposeViewController.m in Sources */,
 				11AEF25018DFBEF100CF04A8 /* TBLoginViewController.m in Sources */,
 				11B6B88F18DE5C84004EC166 /* TBTrendingViewController.m in Sources */,
 				11B6B88518DE5C26004EC166 /* TBSearchViewController.m in Sources */,
