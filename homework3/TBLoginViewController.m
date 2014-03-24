@@ -10,6 +10,8 @@
 
 @interface TBLoginViewController ()
 
+- (IBAction)onCancelButton:(id)sender;
+
 @end
 
 @implementation TBLoginViewController
@@ -33,6 +35,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)onCancelButton:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
